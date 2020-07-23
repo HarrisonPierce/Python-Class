@@ -1,0 +1,39 @@
+print('hello world')
+print('this is my first python program')
+print('good bye!!')
+ #Comment with the pound sign followed by comment
+
+ x = 10
+ y = 20
+ print(x)
+ print(y)
+
+ #python does not require declaration of a data type
+ #data type is determined automatically
+
+ x = 'Tom'
+ print(x)
+
+ room = 503
+ print('I am staying in room number')
+ print('room')
+
+ print('I am staying in room number', room)
+ #keeps all on one line
+
+ name = input('enter name: ')
+ gpa = input('enter your GPA: ')
+
+ print('entered name is', name, 'and the gpa entered is', gpa)
+
+ #inputs can be converted to a float or an int like so,
+
+ age = int(input('what is your age? '))
+ income = float(input('What is your income? '))
+
+ print(age)
+ print(income)
+
+ #Division; 
+ #one slash "/" for float division
+ #two slashes "//" for int division
